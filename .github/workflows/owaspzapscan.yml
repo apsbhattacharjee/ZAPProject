@@ -30,7 +30,7 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
-          target: 'https://www.medium.com/'
+          target: 'https://groupportal.sudlife.in/'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true  # Prevents workflow failure due to scan errors
